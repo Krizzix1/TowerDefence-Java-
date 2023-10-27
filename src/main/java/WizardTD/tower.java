@@ -118,6 +118,11 @@ public class tower extends Tile{
         return type;
     }
 
+    public static void reset(){
+        balls.clear();
+    }
+
+
     public void onHover(PApplet app){
         String text;
         int upBoxHeight;

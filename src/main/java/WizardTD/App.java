@@ -266,6 +266,7 @@ public class App extends PApplet {
     won = false;
     paused = false;
     fastForward = false;
+    tower.reset();
     mouseState.reset();
     setup();
     }
